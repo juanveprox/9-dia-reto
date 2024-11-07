@@ -1,0 +1,47 @@
+*{
+    font-family: "Roboto", sans-serif;
+    box-sizing: content-box;
+}
+
+body{
+    display: flex;
+    background-color: #A7D0F1;
+}
+
+.calculadora{
+    margin: 3rem auto;
+}
+
+#pantalla{
+    padding: .5rem 1rem;
+    background-color: #3f3e3e;
+    color: #FFF;
+    font-size: 2rem;
+}
+
+.teclado{
+    padding: 1rem;
+    background-color: #262626;
+    text-align: center;
+}
+
+.teclado__input{
+    margin: .5rem ;
+    font-size: 2rem;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    color: #FFF;
+    background-color: #4D4D4D;
+    cursor: pointer;
+}
+
+.teclado__input:hover{
+    
+    background-color: #757171;
+}
+
+.teclado__input--sig{
+    background-color: #2F8AC6;
+}

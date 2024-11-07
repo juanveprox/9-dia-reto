@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="stylces.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100..900&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    
+<body>
+    <div class="calculadora">
+        <input type="text" readonly id="pantalla" >
+        <div class="teclado">
+            <input class="teclado__input" type="button" value="7" onclick="aggValor('7')">
+            <input class="teclado__input" type="button" value="8" onclick="aggValor('8')">
+            <input class="teclado__input" type="button" value="9" onclick="aggValor('9')">
+            <input class="teclado__input teclado__input--sig" type="button" value="/" onclick="aggValor('/')">
+            <br>
+            <input class="teclado__input" type="button" value="4" onclick="aggValor('4')">
+            <input class="teclado__input" type="button" value="5" onclick="aggValor('5')">
+            <input class="teclado__input" type="button" value="6" onclick="aggValor('6')">
+            <input class="teclado__input teclado__input--sig" type="button" value="*" onclick="aggValor('*')">
+            <br>
+            <input class="teclado__input" type="button" value="1" onclick="aggValor('1')">
+            <input class="teclado__input" type="button" value="2" onclick="aggValor('2')">
+            <input class="teclado__input" type="button" value="3" onclick="aggValor('3')">
+            <input class="teclado__input teclado__input--sig" type="button" value="-" onclick="aggValor('-')">
+            <br>
+            <input class="teclado__input" type="button" value="0" onclick="aggValor('0')">
+            <input class="teclado__input" type="button" value="." onclick="aggValor('.')">
+            <input class="teclado__input teclado__input--sig" type="button" value="=" onclick="calcular()">
+            <input class="teclado__input teclado__input--sig" type="button" value="+" onclick="aggValor('+')">
+            <br>
+            <input class="teclado__input teclado__input--sig" type="button" value="C" onclick="borrar()">
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
